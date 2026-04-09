@@ -1,9 +1,13 @@
 import "./globals.css";
+import Navber from "./navber/Navber";
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" data-theme="light">
+      <body cz-shortcut-listen="true">
+        <Navber/>
+        {children}
+        </body>
     </html>
   );
 }

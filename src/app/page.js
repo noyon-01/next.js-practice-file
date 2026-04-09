@@ -1,9 +1,7 @@
-import Image from "next/image";
-
 export default function Home() {
   return (
-    <div>
-      <h1>To get started, edit the page.js file.</h1>
+    <div className="container mx-auto">
+      <h1 className="text-5xl font-bold text-center mt-20">This is Home Page</h1>
     </div>
   );
 }
