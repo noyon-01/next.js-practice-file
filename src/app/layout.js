@@ -5,9 +5,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" data-theme="light">
       <body cz-shortcut-listen="true">
-        <Navber/>
+        <Navber />
         {children}
-        </body>
+      </body>
     </html>
   );
 }

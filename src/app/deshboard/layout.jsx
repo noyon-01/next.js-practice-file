@@ -7,8 +7,10 @@ export default function Layout({ children }) {
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content">
           {/* Navbar */}
-          <nav className="navbar w-full bg-base-300"> 
-            <Link href="/deshboard" className="px-4 font-bold">DeshBoard</Link>
+          <nav className="navbar w-full bg-base-300">
+            <Link href="/deshboard" className="px-4 font-bold">
+              DeshBoard
+            </Link>
           </nav>
           {/* Page content here */}
           <div className="p-4">{children}</div>
@@ -25,12 +27,16 @@ export default function Layout({ children }) {
             <ul className="menu">
               {/* List item */}
               <li>
-               <Link href="/deshboard/profile" className="px-4 font-bold">Profile</Link>
+                <Link href="/deshboard/profile" className="px-4 font-bold">
+                  Profile
+                </Link>
               </li>
 
               {/* List item */}
               <li>
-               <Link href="/deshboard/revenue" className="px-4 font-bold">Revenue</Link>
+                <Link href="/deshboard/revenue" className="px-4 font-bold">
+                  Revenue
+                </Link>
               </li>
             </ul>
           </div>
