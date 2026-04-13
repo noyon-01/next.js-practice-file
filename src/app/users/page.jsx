@@ -1,9 +1,16 @@
-export default function Users() {
+import UserPage from "@/components/user";
+
+export default async function Users() {
+  const api = await fetch("https://jsonplaceholder.typicode.com/users");
+  const users = await api.json();
+
   return (
     <div className="container mx-auto">
-      <h1 className="text-5xl font-bold text-center pt-20">
-        This is Users Page
-      </h1>
+      <div className="grid grid-cols-3 gap-3">
+        {users.map((user, index) => (
+          <UserPage key={index} user={user} />
+        ))}
+      </div>
     </div>
   );
 }
