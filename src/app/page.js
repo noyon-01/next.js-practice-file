@@ -1,8 +1,7 @@
 import Ai_Data from "@/components/ai";
-import Ai from "@/components/ai";
 
 const getProduct = async () => {
-  const res = await fetch("http://localhost:5000/Ai_Products");
+  const res = await fetch("http://localhost:5000/Ai_Products", {cache: "force-cache"});
   return res.json();
 };
 
