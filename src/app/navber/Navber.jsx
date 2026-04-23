@@ -41,6 +41,14 @@ export default function Navber() {
       </li>
       <li>
         <Link
+          className={`font-bold ${pathName === "/books" && "text-blue-600"}`}
+          href="/books"
+        >
+          Books
+        </Link>
+      </li>
+      <li>
+        <Link
           className={`font-bold ${pathName === "/deshboard" && "text-blue-600"}`}
           href="/deshboard"
         >

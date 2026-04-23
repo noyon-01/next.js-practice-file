@@ -142,5 +142,88 @@
       "rating": 4.7,
       "in_stock": true
     }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "price": 13.99,
+      "rating": 4.5,
+      "in_stock": true
+    },
+    {
+      "id": 2,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "price": 14.99,
+      "rating": 4.8,
+      "in_stock": true
+    },
+    {
+      "id": 3,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "price": 11.99,
+      "rating": 4.9,
+      "in_stock": true
+    },
+    {
+      "id": 4,
+      "title": "Harry Potter and the Sorcerer's Stone",
+      "author": "J.K. Rowling",
+      "genre": "Fantasy",
+      "price": 16.99,
+      "rating": 4.9,
+      "in_stock": true
+    },
+    {
+      "id": 5,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "price": 13.99,
+      "rating": 4.7,
+      "in_stock": false
+    },
+    {
+      "id": 6,
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "genre": "Self-Help",
+      "price": 18.99,
+      "rating": 4.8,
+      "in_stock": true
+    },
+    {
+      "id": 7,
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "genre": "Thriller",
+      "price": 15.99,
+      "rating": 4.6,
+      "in_stock": true
+    },
+    {
+      "id": 8,
+      "title": "Sapiens",
+      "author": "Yuval Noah Harari",
+      "genre": "Non-Fiction",
+      "price": 19.99,
+      "rating": 4.7,
+      "in_stock": false
+    },
+    {
+      "id": 9,
+      "title": "The Hunger Games",
+      "author": "Suzanne Collins",
+      "genre": "Sci-Fi",
+      "price": 14.49,
+      "rating": 4.6,
+      "in_stock": true
+    }
   ]
 }
