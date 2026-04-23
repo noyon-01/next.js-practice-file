@@ -10,6 +10,7 @@ export default async function Home() {
 
   return (
     <div className="container mx-auto">
+      <h1 className="text-3xl font-bold text-center py-4 mt-5">This is Force-Cache Data Fetch Page</h1>
       <div className="grid grid-cols-3 gap-3">
         {data.map((ai) => (
           <Ai_Data key={ai.id} ai={ai} />
