@@ -1,9 +1,21 @@
+import Ai_Data from "@/components/ai";
+import Ai from "@/components/ai";
 
+const getProduct = async () => {
+  const res = await fetch("http://localhost:5000/Ai_Products");
+  return res.json();
+};
 
-export default function Home() {
+export default async function Home() {
+  const data = await getProduct();
+
   return (
     <div className="container mx-auto">
-      <h1 className="text-5xl font-bold text-center mt-20">This is Home Page</h1>
+      <div className="grid grid-cols-3 gap-3">
+        {data.map((ai) => (
+          <Ai_Data key={ai.id} ai={ai} />
+        ))}
+      </div>
     </div>
   );
 }
