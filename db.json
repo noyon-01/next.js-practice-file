@@ -1,0 +1,146 @@
+{
+  "Ai_Products": [
+    {
+      "id": 1,
+      "name": "ChatGPT",
+      "developer": "OpenAI",
+      "type": "Conversational AI",
+      "release_year": 2022,
+      "capabilities": [
+        "text generation",
+        "code writing",
+        "summarization",
+        "Q&A"
+      ],
+      "model": "GPT-4o",
+      "open_source": false
+    },
+    {
+      "id": 2,
+      "name": "Claude",
+      "developer": "Anthropic",
+      "type": "Conversational AI",
+      "release_year": 2023,
+      "capabilities": [
+        "reasoning",
+        "analysis",
+        "coding",
+        "creative writing",
+        "research"
+      ],
+      "model": "Claude Sonnet 4.6",
+      "open_source": false
+    },
+    {
+      "id": 3,
+      "name": "Gemini",
+      "developer": "Google DeepMind",
+      "type": "Multimodal AI",
+      "release_year": 2023,
+      "capabilities": [
+        "text",
+        "image understanding",
+        "code",
+        "audio",
+        "video analysis"
+      ],
+      "model": "Gemini 2.0 Flash",
+      "open_source": false
+    },
+    {
+      "id": 4,
+      "name": "Llama",
+      "developer": "Meta AI",
+      "type": "Large Language Model",
+      "release_year": 2023,
+      "capabilities": [
+        "text generation",
+        "fine-tuning",
+        "research",
+        "custom deployment"
+      ],
+      "model": "Llama 3.3",
+      "open_source": true
+    },
+    {
+      "id": 5,
+      "name": "Mistral",
+      "developer": "Mistral AI",
+      "type": "Large Language Model",
+      "release_year": 2023,
+      "capabilities": [
+        "text generation",
+        "instruction following",
+        "multilingual",
+        "coding"
+      ],
+      "model": "Mistral Large 2",
+      "open_source": true
+    },
+    {
+      "id": 6,
+      "name": "DALL·E",
+      "developer": "OpenAI",
+      "type": "Image Generation AI",
+      "release_year": 2021,
+      "capabilities": [
+        "text-to-image",
+        "image editing",
+        "style transfer",
+        "inpainting"
+      ],
+      "model": "DALL·E 3",
+      "open_source": false
+    }
+  ],
+  "Phones": [
+    {
+      "id": 1,
+      "name": "iPhone 15 Pro",
+      "price": 999.99,
+      "category": "Smartphone",
+      "rating": 4.8,
+      "in_stock": true
+    },
+    {
+      "id": 2,
+      "name": "Sony WH-1000XM5",
+      "price": 399.99,
+      "category": "Headphones",
+      "rating": 4.9,
+      "in_stock": true
+    },
+    {
+      "id": 3,
+      "name": "Samsung 65\" QLED TV",
+      "price": 1299.99,
+      "category": "Television",
+      "rating": 4.7,
+      "in_stock": false
+    },
+    {
+      "id": 4,
+      "name": "Nike Air Max 270",
+      "price": 149.99,
+      "category": "Footwear",
+      "rating": 4.6,
+      "in_stock": true
+    },
+    {
+      "id": 5,
+      "name": "MacBook Air M3",
+      "price": 1099.99,
+      "category": "Laptop",
+      "rating": 4.9,
+      "in_stock": true
+    },
+    {
+      "id": 6,
+      "name": "Instant Pot Duo",
+      "price": 89.99,
+      "category": "Kitchen",
+      "rating": 4.7,
+      "in_stock": true
+    }
+  ]
+}
